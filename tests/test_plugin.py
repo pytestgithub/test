@@ -12,7 +12,7 @@ pytest_plugins = "pytester"
 ASSIGN_USER_ID = 3
 FAKE_NOW = datetime(2015, 1, 31, 19, 5, 42)
 MILESTONE_ID = 5
-PROJECT_ID = 4
+PROJECT_ID = 1
 PYTEST_FILE = """
     from pytest_testrail.plugin import testrail, pytestrail
     @testrail('C1234', 'C5678')
